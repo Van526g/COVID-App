@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">COVID Application</string>
+    <string name="q1">Q1</string>
+    <string name="question">"Symptom "</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="infoCOVID">Information on COVID</string>
+    <string name="garbage">Symptom Suvey</string>
+    <string name="dailyTracker">Daily Tracker</string>
+    <string name="adminDash">Admin Dashboard</string>
+    <string name="Survey">Symptom Survey</string>
+    <string name="Return">Return</string>
+    <string name="s1">S1</string>
+    <string name="INFO">COVID Information</string>
+</resources>

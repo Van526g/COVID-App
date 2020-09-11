@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    tools:context="com.example.covidapplication.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="casual"
+        android:text="Daily Tracker"
+        android:textColor="@android:color/background_dark"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="54dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/symptomSurvey"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="110dp"
+        android:background="@android:drawable/editbox_background"
+        android:onClick="startApp"
+        android:text="@string/Return" />
+
+</LinearLayout>
+

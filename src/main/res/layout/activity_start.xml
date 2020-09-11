@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    tools:context="com.example.covidapplication.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:fontFamily="casual"
+        android:text="Welcome "
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/covid_testing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="Choose one of the following:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/symptomSurvey"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:onClick="startApp"
+        android:text="@string/Survey" />
+
+    <Button
+        android:id="@+id/dailyTracker"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:drawable/editbox_background"
+        android:onClick="startApp"
+        android:text="@string/dailyTracker" />
+
+    <Button
+        android:id="@+id/adminDash"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:drawable/editbox_background"
+        android:onClick="startApp"
+        android:text="@string/adminDash" />
+
+    <Button
+        android:id="@+id/infoCOVID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:drawable/editbox_background"
+        android:onClick="startApp"
+        android:text="@string/INFO" />
+
+
+
+
+</LinearLayout>
