@@ -18,6 +18,21 @@ This application will be beneficial to those who wants to keep safe during this 
 
 *Layout File Name* - activity_main.xml
 
+***Overview*** - The google single sign on (SSO) was used to authenticate users, and store their data in the firebase in a structured and easily navigable way. It was also used to allow users to sign out and use another account if the need arose. After returning the users account, we were able to retrieve their google account ID, and store other information such as their name, e-mail, symptom status, and last survey date in the firebase. 
+
+***Testing*** - In order to make sure that everything was working accordingly, a few tests were made. 
+
+1. Entered the first e-mail, authentication was a success and the main activity page is launched. Did not sign out from main page. 
+
+2. Repeated step #1 but with a different e-mail. Authentication was a success. 
+
+3. Repeated step #1 with the same exact e-mail and Google told me that the account was already logged in. 
+
+4. Repeated step #1 with a different account, but used the wrong password. Google said that the password was incorrect. The application then said that 'Login Failed!'. 
+
+5. Logged-in using the same e-mail from step #1 and accessed the main activity page. I then successfully logged out from the Google e-mail account by 
+clicking on the 'Sign Out' button.
+
 <img width="250" alt="Screen Shot 2020-09-17 at 4 45 51 PM" src="https://user-images.githubusercontent.com/55956331/93526318-4837f180-f905-11ea-88e5-c981de8eaa2c.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 47 13 PM" src="https://user-images.githubusercontent.com/55956331/93526913-20955900-f906-11ea-9f7c-88725363012a.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 48 35 PM" src="https://user-images.githubusercontent.com/55956331/93526924-2428e000-f906-11ea-9b05-c9c2e8bc5c04.png">
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 55 13 PM" src="https://user-images.githubusercontent.com/55956331/93527336-b5985200-f906-11ea-9b12-d64d08204793.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 54 48 PM" src="https://user-images.githubusercontent.com/55956331/93527349-bb8e3300-f906-11ea-824f-2b3e630157a7.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 55 28 PM" src="https://user-images.githubusercontent.com/55956331/93527354-bdf08d00-f906-11ea-8127-ba20240669a2.png">
@@ -74,7 +89,7 @@ survey is completed. On the result page, the user is given two options: 'Post to
 *Layout File Name* - activity_daily_tracker.xml
 
 ***Overview*** -  Clicking on the 'Daily Tracker' button from the main page, or the result page, takes the user directly to the tracker where they can save the number of symptoms they experience that day, or open the number of symptoms they experienced from a previous day. When the user inputs the total of symptoms, 
-they have to save the entry by clicking on the 'Save' button, then a text box pops up and asks to enter the date in a MM-DD-YYYY format. If ths user wants to see 
+they have to save the entry by clicking on the 'Save' button, then a text box pops up and asks to enter the date in a MM-DD-YYYY format. If the user wants to see 
 the symptoms from a previous day, they just have to click on 'Open' and a text box pops up asking to enter the date they want to check in the MM-DD-YYYY format. 
 The symptoms will then be shown in the same box where they are asked to enter the '# of symptoms'. The purpose of the calendar shown on the page is to remind the
 user what date it is. Finally, the 'Return' button takes the user back to the main activity page. 
@@ -93,6 +108,13 @@ user what date it is. Finally, the 'Return' button takes the user back to the ma
 
 *Layout File Name* - activity_admin.xml
 
+***Overview*** - For the admin dashboard page, we have it show who has and hasn’t taken their daily COVID symptom survey, and based on their results, what percent of users have COVID symptoms. All the information is grabbed from the firebase, and is currently viewable to all users. We did implement the ability 
+to only have a certain programmed user have access to this page, but removed it for the demonstration purpose.
+
+***Testing*** - In order to make sure the admin dashboard was working correctly, a few people logged-in to their Google e-mail accounts and took the survey.
+As shown in the first figure below, four accounts that logged-in to the application to take the survey completed the survey, but the user 'Vanessa' did not. 
+As shown in the second figure below, once the user 'Vanessa' took the survey, the admin dashboard shows that the user completed it.  
+
 <img width="250" alt="Screen Shot 2020-09-17 at 5 37 28 PM" src="https://user-images.githubusercontent.com/55956331/93531473-496d1c80-f90d-11ea-8dc8-9e3c63ede296.png"> <img width="250" alt="Screen Shot 2020-09-17 at 5 57 15 PM" src="https://user-images.githubusercontent.com/55956331/93532884-dadd8e00-f90f-11ea-97e5-7053f8bb8ce9.png">
 
 
@@ -103,6 +125,10 @@ user what date it is. Finally, the 'Return' button takes the user back to the ma
 *Class Names* - InfoMenuActivity, InfoActivity, SymptomsListActivity, PreventionActivity, & TestingActivity
 
 *Layout File Names* - activity_infoMenu.xml, activity_info.xml, activity_symptoms_list.xml, activity_prevention.xml, & activity_testing.xml
+
+***Overview*** - 
+
+***Testing*** - 
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 31 14 PM" src="https://user-images.githubusercontent.com/55956331/93526075-e8d9e180-f904-11ea-9a20-68fbb36c00d1.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 20 PM" src="https://user-images.githubusercontent.com/55956331/93526084-ec6d6880-f904-11ea-99c0-64840fe2c7c2.png">
 
