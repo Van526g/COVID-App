@@ -65,8 +65,7 @@ clicking on the 'Sign Out' button.
 of the COVID-19 virus. For the survey questions page, each individual response is recorded in the firebase, and is used for daily tracking purposes and in the admin dashboard. 
 
 
-The user has to answer either 'Yes' or 'No' if they are experiencing the symptom that is being asked. When the user is answering the questions, the application is recording the amount of times they answered 'Yes', and then display it on the result activity page that is shown right after the 
-survey is completed. On the result page, the user is given two options: 'Post to Daily Tracker' and 'Return'. If the user chooses the former, they are sent directly to the daily tracker page and if they choose the latter, they return back to the main activity page. 
+The user has to answer either 'Yes' or 'No' if they are experiencing the symptom that is being asked. When the user is answering the questions, the firebase is recording the amount of times they answered 'Yes', and then display it on the result activity page that is shown right after the survey is completed. On the result page, the user is given two options: 'Post to Daily Tracker' and 'Return'. If the user chooses the former, they are sent directly to the daily tracker page and if they choose the latter, they return back to the main activity page. 
 
 ***Testing*** -  In order to make sure that the survey & result activity pages are working properly, a few tests have to be made. 
 
@@ -129,7 +128,18 @@ As shown in the second figure below, once the user 'Vanessa' took the survey, th
 
 *Layout File Names* - activity_infoMenu.xml, activity_info.xml, activity_symptoms_list.xml, activity_prevention.xml, & activity_testing.xml
 
-***Overview*** - 
+***Overview*** - The COVID Information page consists of five buttons: Symptoms, Preventions, Testings, Global Data, and Return. 
+
+*Symptoms* - Clicking on this button takes the user to a page that shows a list of common COVID-19 symptoms. 
+
+*Preventions* - Clicking on this button takes the user to a page that shows how they can prevent from obtaining and spreading COVID-19. 
+
+*Testings* - Clicking on this button takes the user to a page that shows the two types of tests they can take, who should get tested, and explaining the results 
+of positive & negative tests for COVID-19. 
+
+*Global Data* - Clicking on this button takes the user to a page that shows the data of total confirmed cases and the death tally both globally and in each country. The global COVID statistics page utilized the API linked below. Only one request was made for both global stats and per-country stats, and the JSON response was parsed using Google Volley and Java’s JSON library to show the total confirmed cases and confirmed deaths for the world and all countries. While not implemented, features such as searching up a country and displaying daily statistics of confirmed cases and deaths is a possibility.
+
+*Return* - This button takes the user back to the main activity page. 
 
 ***Testing*** - 
 
