@@ -36,6 +36,9 @@ This application will be beneficial to those who wants to keep safe during this 
 
 **Admin Dashboard**:
 
+<img width="250" alt="Screen Shot 2020-09-17 at 5 37 28 PM" src="https://user-images.githubusercontent.com/55956331/93531473-496d1c80-f90d-11ea-8dc8-9e3c63ede296.png">
+
+
 **COVID Information**:
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 31 14 PM" src="https://user-images.githubusercontent.com/55956331/93526075-e8d9e180-f904-11ea-9a20-68fbb36c00d1.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 20 PM" src="https://user-images.githubusercontent.com/55956331/93526084-ec6d6880-f904-11ea-99c0-64840fe2c7c2.png">
