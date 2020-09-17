@@ -15,6 +15,7 @@ This application will be beneficial to those who wants to keep safe during this 
 **Single Sign On (SSO)**:
 
 *Class Name* - MainActivity
+
 *Layout File Name* - activity_main.xml
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 45 51 PM" src="https://user-images.githubusercontent.com/55956331/93526318-4837f180-f905-11ea-88e5-c981de8eaa2c.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 47 13 PM" src="https://user-images.githubusercontent.com/55956331/93526913-20955900-f906-11ea-9f7c-88725363012a.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 48 35 PM" src="https://user-images.githubusercontent.com/55956331/93526924-2428e000-f906-11ea-9b05-c9c2e8bc5c04.png">
@@ -26,6 +27,7 @@ This application will be beneficial to those who wants to keep safe during this 
 **Main Page**: 
 
 *Class Name* - QuestionActivity
+
 *Layout File Name* - activity_question.xml
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 28 05 PM" src="https://user-images.githubusercontent.com/55956331/93525596-491c5380-f904-11ea-9316-cf374d691eda.png">
