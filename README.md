@@ -13,6 +13,7 @@ This application will be beneficial to those who wants to keep safe during this 
 # COVID-19 Monitor Features
 
 **Single Sign On (SSO)**:
+
 *Class Name* - MainActivity
 
 *Layout File Name* - activity_main.xml
@@ -24,6 +25,7 @@ This application will be beneficial to those who wants to keep safe during this 
 
 
 **Main Page**: 
+
 *Class Name* - QuestionActivity
 
 *Layout File Name* - activity_question.xml
