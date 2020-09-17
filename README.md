@@ -35,21 +35,36 @@ This application will be beneficial to those who wants to keep safe during this 
 
 **Symptom Survey**:
 
+*Class Name* - SymptomActivity
+
+*Layout File Name* - activity_symptom.xml
+
 <img width="250" alt="Screen Shot 2020-09-17 at 4 28 27 PM" src="https://user-images.githubusercontent.com/55956331/93525813-8e408580-f904-11ea-9f08-31abd71e1449.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 30 09 PM" src="https://user-images.githubusercontent.com/55956331/93525846-98fb1a80-f904-11ea-934b-2f554dbec854.png">
 
 
 **Daily Tracker**:
+
+*Class Name* - DailyTrackerActivity
+
+*Layout File Name* - activity_daily_tracker.xml
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 30 28 PM" src="https://user-images.githubusercontent.com/55956331/93525953-c21bab00-f904-11ea-8b01-fce201cfacc2.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 30 44 PM" src="https://user-images.githubusercontent.com/55956331/93525972-c8118c00-f904-11ea-8a1f-73dd0a3eca28.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 01 PM" src="https://user-images.githubusercontent.com/55956331/93525985-cba51300-f904-11ea-89d8-b622c37cea90.png">
 
 
 **Admin Dashboard**:
 
+*Class Name* - AdminActivity
+
+*Layout File Name* - activity_admin.xml
 <img width="250" alt="Screen Shot 2020-09-17 at 5 37 28 PM" src="https://user-images.githubusercontent.com/55956331/93531473-496d1c80-f90d-11ea-8dc8-9e3c63ede296.png"> <img width="250" alt="Screen Shot 2020-09-17 at 5 57 15 PM" src="https://user-images.githubusercontent.com/55956331/93532884-dadd8e00-f90f-11ea-97e5-7053f8bb8ce9.png">
 
 
 
 **COVID Information**:
+
+*Class Names* - InfoMenuActivity, InfoActivity, SymptomsListActivity, PreventionActivity, & TestingActivity
+
+*Layout File Names* - activity_infoMenu.xml, activity_info.xml, activity_symptoms_list.xml, activity_prevention.xml, & activity_testing.xml
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 31 14 PM" src="https://user-images.githubusercontent.com/55956331/93526075-e8d9e180-f904-11ea-9a20-68fbb36c00d1.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 20 PM" src="https://user-images.githubusercontent.com/55956331/93526084-ec6d6880-f904-11ea-99c0-64840fe2c7c2.png">
 
