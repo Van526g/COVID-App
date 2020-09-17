@@ -62,7 +62,10 @@ clicking on the 'Sign Out' button.
 *Layout File Name* - activity_symptom.xml & activity_result.xml
 
 ***Overview*** - Clicking on the 'Symptom Survey' button from the main page takes the user directly to a survey that has 12 questions regarding the symptoms
-of the COVID-19 virus. The user has to answer either 'Yes' or 'No' if they are experiencing the symptom that is being asked. When the user is answering the questions, the application is recording the amount of times they answered 'Yes', and then display it on the result activity page that is shown right after the 
+of the COVID-19 virus. For the survey questions page, each individual response is recorded in the firebase, and is used for daily tracking purposes and in the admin dashboard. 
+
+
+The user has to answer either 'Yes' or 'No' if they are experiencing the symptom that is being asked. When the user is answering the questions, the application is recording the amount of times they answered 'Yes', and then display it on the result activity page that is shown right after the 
 survey is completed. On the result page, the user is given two options: 'Post to Daily Tracker' and 'Return'. If the user chooses the former, they are sent directly to the daily tracker page and if they choose the latter, they return back to the main activity page. 
 
 ***Testing*** -  In order to make sure that the survey & result activity pages are working properly, a few tests have to be made. 
