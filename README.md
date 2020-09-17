@@ -30,8 +30,8 @@ This application will be beneficial to those who wants to keep safe during this 
 **Vanessa Giron**: In charge of the graphical user interface (GUI), results activity, survey activity, daily tracker activty, COVID information activity, such as
 the symptoms, preventions, and testings, and the GitHub README.md.
 
-**Nikhil Gupta**: In charge of the single sign on (SSO), admin dashboard activity, survey activity, and using the COVID-19 API to get the global cases and deaths 
-for the COVID information activity. 
+**Nikhil Gupta**: In charge of the single sign on (SSO), admin dashboard activity, survey activity, using the COVID-19 API to get the global cases and deaths 
+for the COVID information activity, and the GitHub README.md. 
 
 # Credits
 **Save & Open the Symptoms in the Daily Tracker Activty**: http://www.vetbossel.in/create-notepad-application-android-studio/
