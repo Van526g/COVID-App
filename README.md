@@ -2,7 +2,7 @@
 Member Names: Vanessa Giron (van526g@bu.edu) & Nikhil Gupta (nikhilgu@bu.edu)
 
 **Overview**: 'COVID-19 Monitor' is an Android Studio application that is directed for anyone who wants to monitor their COVID-19 symptoms by taking a survey 
-and recording them daily. The application allows the user to see how many of those that took the survey experienced the same symptoms by looking at the admin 
+and recording them daily. The application allows the user to see how many of those that took the survey experienced any of the symptoms by looking at the admin 
 dashbaord. If the user is interested to know more about COVID-19, the application has a feature that allows them to see the symptoms, testings, preventions, and 
 global cases and deaths of the virus. 
 
@@ -147,6 +147,8 @@ of positive & negative tests for COVID-19.
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 31 25 PM" src="https://user-images.githubusercontent.com/55956331/93526091-eecfc280-f904-11ea-8c95-b17c4bc622ff.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 32 PM" src="https://user-images.githubusercontent.com/55956331/93526102-f2fbe000-f904-11ea-88a7-a33ba7bb1abc.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 44 PM" src="https://user-images.githubusercontent.com/55956331/93526121-f8592a80-f904-11ea-843a-526769aebc79.png">
 
+# COVID-19 Monitor Video Recording
+
 
 
 # API Reference 
@@ -156,8 +158,8 @@ of positive & negative tests for COVID-19.
 **Vanessa Giron**: In charge of the graphical user interface (GUI), results activity, survey activity, daily tracker activty, COVID information activity, such as
 the symptoms, preventions, and testings, and the GitHub README.md.
 
-**Nikhil Gupta**: In charge of the single sign on (SSO), admin dashboard activity, survey activity, using the COVID-19 API to get the global cases and deaths 
-for the COVID information activity, and the GitHub README.md. 
+**Nikhil Gupta**: In charge of the single sign on (SSO), admin dashboard activity, survey activity, and using the COVID-19 API to get the global cases and deaths 
+for the COVID information activity page.
 
 # Credits
 **Save & Open the Symptoms in the Daily Tracker Activty**: http://www.vetbossel.in/create-notepad-application-android-studio/
