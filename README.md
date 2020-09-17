@@ -11,15 +11,22 @@ The reason why the 'COVID-19 Monitor' was created is to assist people track thei
 This application will be beneficial to those who wants to keep safe during this global pandemic. 
 
 # COVID-19 Monitor Features
+
 **Single Sign On (SSO)**:
+*Class Name* - MainActivity
 
-<img width="250" alt="Screen Shot 2020-09-17 at 4 45 51 PM" src="https://user-images.githubusercontent.com/55956331/93526318-4837f180-f905-11ea-88e5-c981de8eaa2c.png"><img width="250" alt="Screen Shot 2020-09-17 at 4 47 13 PM" src="https://user-images.githubusercontent.com/55956331/93526913-20955900-f906-11ea-9f7c-88725363012a.png"><img width="250" alt="Screen Shot 2020-09-17 at 4 48 35 PM" src="https://user-images.githubusercontent.com/55956331/93526924-2428e000-f906-11ea-9b05-c9c2e8bc5c04.png">
+*Layout File Name* - activity_main.xml
 
-<img width="250" alt="Screen Shot 2020-09-17 at 4 55 13 PM" src="https://user-images.githubusercontent.com/55956331/93527336-b5985200-f906-11ea-9b12-d64d08204793.png"><img width="250" alt="Screen Shot 2020-09-17 at 4 54 48 PM" src="https://user-images.githubusercontent.com/55956331/93527349-bb8e3300-f906-11ea-824f-2b3e630157a7.png"><img width="250" alt="Screen Shot 2020-09-17 at 4 55 28 PM" src="https://user-images.githubusercontent.com/55956331/93527354-bdf08d00-f906-11ea-8127-ba20240669a2.png">
+<img width="250" alt="Screen Shot 2020-09-17 at 4 45 51 PM" src="https://user-images.githubusercontent.com/55956331/93526318-4837f180-f905-11ea-88e5-c981de8eaa2c.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 47 13 PM" src="https://user-images.githubusercontent.com/55956331/93526913-20955900-f906-11ea-9f7c-88725363012a.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 48 35 PM" src="https://user-images.githubusercontent.com/55956331/93526924-2428e000-f906-11ea-9b05-c9c2e8bc5c04.png">
+
+<img width="250" alt="Screen Shot 2020-09-17 at 4 55 13 PM" src="https://user-images.githubusercontent.com/55956331/93527336-b5985200-f906-11ea-9b12-d64d08204793.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 54 48 PM" src="https://user-images.githubusercontent.com/55956331/93527349-bb8e3300-f906-11ea-824f-2b3e630157a7.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 55 28 PM" src="https://user-images.githubusercontent.com/55956331/93527354-bdf08d00-f906-11ea-8127-ba20240669a2.png">
 
 
 
-**Main Page**:
+**Main Page**: 
+*Class Name* - QuestionActivity
+
+*Layout File Name* - activity_question.xml
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 28 05 PM" src="https://user-images.githubusercontent.com/55956331/93525596-491c5380-f904-11ea-9316-cf374d691eda.png">
 
@@ -36,7 +43,8 @@ This application will be beneficial to those who wants to keep safe during this 
 
 **Admin Dashboard**:
 
-<img width="250" alt="Screen Shot 2020-09-17 at 5 37 28 PM" src="https://user-images.githubusercontent.com/55956331/93531473-496d1c80-f90d-11ea-8dc8-9e3c63ede296.png">
+<img width="250" alt="Screen Shot 2020-09-17 at 5 37 28 PM" src="https://user-images.githubusercontent.com/55956331/93531473-496d1c80-f90d-11ea-8dc8-9e3c63ede296.png"> <img width="250" alt="Screen Shot 2020-09-17 at 5 57 15 PM" src="https://user-images.githubusercontent.com/55956331/93532884-dadd8e00-f90f-11ea-97e5-7053f8bb8ce9.png">
+
 
 
 **COVID Information**:
