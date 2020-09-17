@@ -58,6 +58,10 @@ survey is completed. On the result page, the user is given two options: 'Post to
 
 3. Click 'Yes' a certain amount of times and make sure the result page shows the correct number of yeses. For example, if you click 'Yes' 9 times, the result page must show '9/12'. 
 
+4. Click 'Post to Daily Tracker' and make sure the daily tracker activity page is shown. 
+
+5. Click 'Return' and make sure the main activity page is shown. 
+
 <img width="250" alt="Screen Shot 2020-09-17 at 4 28 27 PM" src="https://user-images.githubusercontent.com/55956331/93525813-8e408580-f904-11ea-9f08-31abd71e1449.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 30 09 PM" src="https://user-images.githubusercontent.com/55956331/93525846-98fb1a80-f904-11ea-934b-2f554dbec854.png">
 
 
