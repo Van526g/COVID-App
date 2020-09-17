@@ -73,14 +73,14 @@ survey is completed. On the result page, the user is given two options: 'Post to
 
 *Layout File Name* - activity_daily_tracker.xml
 
-***Overview*** -  Clicking on the 'Daily Tracker' button from the main page, or the result page, takes the user directly to the tracker where they can save the number of symptoms they experience that day or open the number of symptoms they experienced from a previous day. When the user inputs the total of symptoms, 
+***Overview*** -  Clicking on the 'Daily Tracker' button from the main page, or the result page, takes the user directly to the tracker where they can save the number of symptoms they experience that day, or open the number of symptoms they experienced from a previous day. When the user inputs the total of symptoms, 
 they have to save the entry by clicking on the 'Save' button, then a text box pops up and asks to enter the date in a MM-DD-YYYY format. If ths user wants to see 
 the symptoms from a previous day, they just have to click on 'Open' and a text box pops up asking to enter the date they want to check in the MM-DD-YYYY format. 
 The symptoms will then be shown in the same box where they are asked to enter the '# of symptoms'. The purpose of the calendar shown on the page is to remind the
 user what date it is. Finally, the 'Return' button takes the user back to the main activity page. 
 
 ***Tesing*** - The best way to test this feature is by entering several number of symptoms in the box and saving them under random dates. Then, click on the 
-'Open' button and enter the dates that you saved the number of symptoms under. The correct number should be shown every time you enter the correct dates. 
+'Open' button and enter the dates that you saved the number of symptoms under. The correct number should be shown every time you enter the dates. 
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 30 28 PM" src="https://user-images.githubusercontent.com/55956331/93525953-c21bab00-f904-11ea-8b01-fce201cfacc2.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 30 44 PM" src="https://user-images.githubusercontent.com/55956331/93525972-c8118c00-f904-11ea-8a1f-73dd0a3eca28.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 01 PM" src="https://user-images.githubusercontent.com/55956331/93525985-cba51300-f904-11ea-89d8-b622c37cea90.png">
 
