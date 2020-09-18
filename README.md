@@ -149,6 +149,9 @@ of positive & negative tests for COVID-19.
 
 # COVID-19 Monitor Video Recording
 
+Video Recording for 'COVID_App_FINAL.zip' - https://drive.google.com/file/d/1BDSkMlqd30acTE2grtrTp2vhOYJsn5BZ/view
+
+* At the end of the video, the bottom of the screen says 'Login Failed'. I made sure to NOT click on any of the two accounts to show the notifcation that pops up if the user does not choose any of their accounts listed. 
 
 
 # API Reference 
