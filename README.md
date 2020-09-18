@@ -147,6 +147,11 @@ of positive & negative tests for COVID-19.
 
 <img width="250" alt="Screen Shot 2020-09-17 at 4 31 25 PM" src="https://user-images.githubusercontent.com/55956331/93526091-eecfc280-f904-11ea-8c95-b17c4bc622ff.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 32 PM" src="https://user-images.githubusercontent.com/55956331/93526102-f2fbe000-f904-11ea-88a7-a33ba7bb1abc.png"> <img width="250" alt="Screen Shot 2020-09-17 at 4 31 44 PM" src="https://user-images.githubusercontent.com/55956331/93526121-f8592a80-f904-11ea-843a-526769aebc79.png">
 
+**Firebase Layout** - Structure of our database. Each user is defined by their unique google account ID, and contains children for their name, email, date of last survey, and most recent symptom survey answers.
+
+<img width="250" alt="Firebase Structure" src="https://github.com/nikhilgu99/TestRepo/blob/master/firebase.png?raw=true">
+
+
 # COVID-19 Monitor Video Recording
 
 Video Recording for 'COVID_App_FINAL.zip' - https://drive.google.com/file/d/1BDSkMlqd30acTE2grtrTp2vhOYJsn5BZ/view
